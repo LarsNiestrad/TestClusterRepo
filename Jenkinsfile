@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-				echo 'Now packaging..'
+				echo 'Now packaging...'
                 sh 'mvn clean package'
             }
             post {
